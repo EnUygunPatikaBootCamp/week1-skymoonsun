@@ -1,0 +1,24 @@
+Soru 1: OOP nedir? Ne amaçlı kullanılır?
+
+OOP, her işlevin nesnel olarak soyutlandığı bir bilgisayar programlama şeklidir.
+Daha basit şekilde açıklarsak, gerçek hayattaki nesneleri yazılım dünyasına aktarma biçimidir.
+- Hedef nesnemiz ile ilgili tüm methodlar bir sınıf içerisinde toplanır.
+- O sınıfı kullandığımız her yerde düzenleme yapmak yerine sadece sınıf üzerinde düzenleme yaparız.
+- Kod okunabilirliğini arttırır.
+
+
+Soru 2: Polymorphism ne amaçlı kullanılır?
+
+Bir nesnenin diğer nesnelerle ortak özellikleri olmasına rağmen nesneye farklı özellikler tanımlanması durumunda kullanılır.
+
+
+Soru 3: Bir metodun private, protected ya da public olması kavramlarını açıklayınız.
+
+- Private: Sınıftaki method ve parametreler private olarak tanımlanırsa farklı sınıflardan bunlara erişilemez.
+- Protected: Sınıftaki method ve parametreler protected olarak tanımlanırsa bunlara sadece mevcut sınıf ve o sınıfa extend edilen child sınıflar erişebilir.
+- Public: Sınıftaki method ve parametreler protected olarak tanımlanırsa her yerden erişilebilir.
+
+
+Soru 4: (Abstraction) Soyutlama nedir?
+
+Bir sınıfın özellik ve davranışlarının tanımlanmasıdır. Temel amacı, gereksiz detayları kullanıcıdan gizlemektir. Yazılımda karmaşıklığı azaltır.
